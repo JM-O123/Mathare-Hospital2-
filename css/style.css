@@ -1,0 +1,149 @@
+
+
+body {
+        background-color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        background-color: black;
+        color: red;
+        padding: 10px 20px;
+        border-radius: 50px;
+    }
+
+    h1 {
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+    }
+
+    /*div {*/
+    /*    background-color: white;*/
+    /*    height: 100px;*/
+    /*}*/
+
+    .one {
+        background-color: white;
+        height: 100px;
+        color: white;
+    }
+
+    .two {
+        background-color: orangered;
+        height: 100px;
+        color: floralwhite;
+    }
+
+    .three {
+        background-color: orange;
+        height: 100px;
+        color: floralwhite;
+    }
+
+    #four {
+        background-color: crimson;
+        height: 100px;
+        color: white;
+    }
+
+    #five {
+        background-color: hotpink;
+        height: 100px;
+        color: white;
+    }
+
+    .background-image {
+        background-image: url("https://cdn.pixabay.com/photo/2016/11/08/05/29/operation-1807543_640.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 550px;
+        border-radius: 50px;
+    }
+
+    nav {
+        background-color: orangered;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 0;
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 50px;
+    }
+
+    nav ul li a:hover {
+        background-color: white;
+    }
+
+    h2 {
+        color: deepskyblue;
+    }
+
+    p {
+        color: orangered;
+    }
+
+    li {
+        color: darkkhaki;
+
+}
+    main {
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+
+    }
+    div{
+        border-radius: 20px;
+        margin: 20px;
+    }
